@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    font-size: large;
+    color: aliceblue;
+    background-image: linear-gradient(to right, #07DACF, #1616D0);
+    padding-block: .5rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section{
+    width: 30rem;
+    padding: .6rem;
+    margin: 1rem;
+    border-style: solid;
+    border-radius: .5rem;
+    border-width: 2px;
+}
+h2{
+    text-align: center;
+    font-size: x-large;
+    color: #0E87D8;
+}
+h3{
+    color: #07DACF;
+    margin-top: 1rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.container-checkbox{
+    display: flex;
+}
+#bookFormIsComplete{
+    margin-left: 5px;
+    margin-top: 1px;
+}
+span{
+    font-weight: bold;
+}
+label{
+    font-weight: bold;
+    color: #0E87D8;
+    margin-block: 5px;
+}
+input{
+    height: 1.7rem;
+    padding-left: 5px;
+    border-radius: .2rem;
+}
+.input-cari{
+    width: 23rem;
+    padding-left: 5px;
+}
+.btn-cari{
+    border-radius: .3rem;
+    padding-inline: .5rem;
+    height: 1.6rem;
+    color: white;
+    background-color: #077ED9;  
+}
+.btn-cari:hover{
+    border-radius: .3rem;
+    padding-inline: .5rem;
+    height: 1.6rem;
+    color: white;
+    background-color: #0873C4;
+    cursor: pointer;
+}
+.btn-primer{
+    margin: 0 70px;
+    border-radius: .3rem;
+    padding-inline: .5rem;
+    height: 1.5rem;
+    color: white;
+    background-color: #077ED9;
+}
+.btn-primer:hover{
+    border-radius: .3rem;
+    padding-inline: .5rem;
+    height: 1.5rem;
+    color: white;
+    background-color: #0873C4;
+    cursor: pointer;
+}
+p{
+    margin-block: 10px;
+}
+.btn-selesai{
+    border-radius: .3rem;
+    padding-inline: .5rem;
+    margin-right: .3rem;
+    height: 1.5rem;
+    color: white;
+    background-color: #077ED9;
+}
+.btn-selesai:hover{
+    border-radius: .3rem;
+    padding-inline: .5rem;
+    margin-right: .3rem;
+    height: 1.5rem;
+    color: white;
+    background-color: #0873C4;
+    cursor: pointer;
+}
+.btn-hapus{
+    border-radius: .3rem;
+    padding-inline: .5rem;
+    margin-right: .3rem;
+    height: 1.5rem;
+    color: white;
+    background-color: #ff0000;
+}
+.btn-hapus:hover{
+    border-radius: .3rem;
+    padding-inline: .5rem;
+    margin-right: .3rem;
+    height: 1.5rem;
+    color: white;
+    background-color:  #cc0000;
+    cursor: pointer;
+}
+.btn-edit{
+    border-radius: .3rem;
+    padding-inline: .5rem;
+    height: 1.5rem;
+    color: white;
+    background-color: #14C673;
+}
+.btn-edit:hover{
+    border-radius: .3rem;
+    padding-inline: .5rem;
+    height: 1.5rem;
+    color: white;
+    background-color: #10AC63;
+    cursor: pointer;
+}
